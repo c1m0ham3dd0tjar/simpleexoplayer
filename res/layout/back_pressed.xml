@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:background="@drawable/cover" />
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do you want to Exit ?"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:fontFamily="@font/malimedium"
+        android:textColor="@color/colorPrimary"/>
+
+    <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_margin="10dp"
+        android:gravity="center"
+         android:orientation="horizontal"
+         android:layout_height="match_parent">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Rate App"
+             android:textSize="25dp"
+             android:id="@+id/rate_app"
+             android:paddingRight="2dp"
+             android:textStyle="bold|italic"
+             android:fontFamily="@font/malimedium"
+             android:layout_marginRight="45dp"
+             android:textColor="#fff"/>
+
+
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Yes"
+             android:paddingRight="2dp"
+             android:textSize="25dp"
+             android:id="@+id/yes"
+             android:layout_marginLeft="45dp"
+             android:textStyle="bold|italic"
+             android:fontFamily="@font/malimedium"
+             android:textColor="#fff"/>
+
+     </LinearLayout>
+</LinearLayout>
