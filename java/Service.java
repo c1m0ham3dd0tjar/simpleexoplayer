@@ -1,4 +1,4 @@
-package com.saas.sgm.ozuna_1;
+package your.package.name.cimohamed;
 
 import android.app.Service;
 import android.content.Intent;
