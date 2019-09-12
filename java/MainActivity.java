@@ -1,4 +1,4 @@
-package com.saas.sgm.ozuna_1;
+package your.package.name.cimohamed;
 
 import android.Manifest;
 import android.app.NotificationChannel;
